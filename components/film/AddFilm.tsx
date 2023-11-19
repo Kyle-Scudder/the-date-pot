@@ -204,7 +204,7 @@ export default function AddFilm(props: {
           clearable
           searchable
           transitionProps={{ transition: "pop-bottom-left", duration: 200 }}
-          label="Genres"
+          label="Platforms"
           placeholder="Pick some"
           data={platformOptions}
           {...form.getInputProps("platforms")}
